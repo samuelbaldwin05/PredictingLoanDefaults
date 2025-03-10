@@ -26,3 +26,6 @@ def calculate_volatility(df, column_name):
     annualized_volatility = daily_volatility * np.sqrt(252)
 
     return daily_volatility, annualized_volatility
+
+def test_model(hi):
+    pass
